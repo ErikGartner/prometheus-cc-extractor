@@ -17,6 +17,10 @@ pip install -r requirements_python3.text
 To do local testing the `get-data.sh` script downloads 100 WET files for testing purpose.
 It uses [httpie](https://httpie.org/#installation) for downloading, so either install that or change the script to use cURL or wget.
 
+```
+./get-data.sh
+```
+
 ## Extractors
 
 ### Obama Born Extractor
