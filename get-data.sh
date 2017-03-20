@@ -104,6 +104,7 @@ ccfiles=(
      'crawl-data/CC-MAIN-2014-35/segments/1408500800168.29/wet/CC-MAIN-20140820021320-00098-ip-10-180-136-8.ec2.internal.warc.wet.gz'
      'crawl-data/CC-MAIN-2014-35/segments/1408500800168.29/wet/CC-MAIN-20140820021320-00099-ip-10-180-136-8.ec2.internal.warc.wet.gz'
    );
+
 for f in ${ccfiles[@]}
 do
   mkdir -p `dirname $f`
