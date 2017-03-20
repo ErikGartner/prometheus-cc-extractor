@@ -1,5 +1,7 @@
 
 # Created by https://www.gitignore.io/api/osx,python,spark
+out/
+crawl-data/
 
 ### OSX ###
 *.DS_Store
