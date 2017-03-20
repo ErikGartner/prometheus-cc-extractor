@@ -1,0 +1,4 @@
+boto
+mrjob
+-e git+https://github.com/erroneousboat/warc3@70aaad539df6707464154040b2e87000f2c01cdf#egg=warc
+https://github.com/commoncrawl/gzipstream/archive/master.zip

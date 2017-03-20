@@ -19,7 +19,7 @@ class ObamaBornExtractor(CCJob):
         if record['Content-Type'] != 'text/plain':
             return
 
-        data = record.payload.read()
+        data = str(record.payload.read(), 'utf-8')
         match = re.findall(ObamaBornExtractor.filter_reg, data)
         if len(match) == 0:
             # Document didn't contain the sought after string
