@@ -18,7 +18,7 @@ To do local testing the `get-data.sh` script downloads 100 WET files for testing
 It uses [httpie](https://httpie.org/#installation) for downloading, so either install that or change the script to use cURL or wget.
 
 ```
-./get-data.sh
+./get-data.sh input/test-100.wet
 ```
 
 ## Extractors
